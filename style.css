@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.group {
+  margin: 100px;
+}
+.header_title {
+  font-size: 40px;
+  color: rgb(88, 86, 86);
+  font-weight: 50;
+  padding: 0;
+  margin: 0;
+}
+.header_description {
+  width: 270px;
+  color: rgb(114, 112, 112);
+  margin: 10px 0;
+}
+.header_btn {
+  color: gray;
+  border-color: rgb(88, 86, 86);
+  background: none;
+  padding: 15px;
+  border-radius: 50px;
+  border-width: 1px;
+
+}
+.header_img {
+  margin: 0 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+.firstSection {
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  /* justify-content: center; */
+  height: 600px;
+  background-color: rgb(237, 243, 245);
+  /* height: 250px; */
+}
+.line {
+  margin-bottom: 10px;
+}
+.section_title {
+  font-size: 40px;
+  color: rgb(88, 86, 86);
+  font-weight: 50;
+  padding: 0;
+  margin: 0;
+}
+.section_description {
+  width: 270px;
+  color: rgb(114, 112, 112);
+  margin: 10px 0;
+}
+.images_line {
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 100%;
+}
+.container img {
+  width: 70px;
+  padding: 15px;
+}
+.section_second_description {
+  width: 800px;
+  color: rgb(114, 112, 112);
+  margin: 10px;
+}
+.details {
+  width: 100px;
+}
+.secodSection {
+  display: flex;
+  padding: 50px 0;
+  flex-direction: column;
+  align-items: center;
+  height: 1600px;
+}
+.article {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+.article_img {
+  margin: 0 20px;
+  width: 450px;
+  height: 350px;
+  /* border-radius: 100%; */
+  opacity: 0.7;
+}
+.article_group {
+  margin: 100px;
+}
+.article_title {
+  font-size: 40px;
+  color: rgb(88, 86, 86);
+  font-weight: 50;
+  padding: 20px 0;
+}
+.article_description {
+  width: 270px;
+  color: rgb(114, 112, 112);
+  margin: 20px 0;
+}
+.article_btn {
+  color: gray;
+  border-color: rgb(88, 86, 86);
+  border-width: 1px;
+
+  background: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+.thirdSection {
+  display: flex;
+  padding: 50px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.background_img {
+  width: 100%;
+  opacity: 0.9;
+  height: 500px;
+  position: relative;
+}
+.third_line {
+  position: absolute;
+  top: 2820px;
+  color: white;
+  margin-bottom: 10px;
+}
+.third_section_title {
+  position: absolute;
+  top: 2850px;
+  /* left: 150px; */
+  font-size: 40px;
+  color: white;
+  font-weight: 50;
+  padding: 0;
+  margin: 0;
+}
+.third_section_description {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  width: 380px;
+  color: white;
+  margin: 10px 0;
+}
+.third_section_btn {
+  position: absolute;
+
+  color: white;
+  border-color: white;
+  border-width: 1px;
+
+  top: 3030px;
+
+  background: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(237, 243, 245);
+  padding: 50px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.text_input {
+  display: flex;
+  flex-direction: row;
+}
+.text_input input {
+  height: 40px;
+  border-radius: 10px;
+  border-color: rgb(114, 112, 112);
+  border-width: 1px;
+}
+.text_input input:first-child {
+  margin-right: 10px;
+}
+.text_input input::placeholder {
+  font-size: 1em;
+  padding: 5px;
+}
+textarea {
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 100%;
+}
+textarea::placeholder {
+  font-size: 1em;
+  padding: 5px;
+}
+.form_btn {
+    color: gray;
+    border-color: rgb(88, 86, 86);
+    background: none;
+    padding: 15px;
+    border-radius: 50px;
+    border-width: 1px;
+  
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 20px; */
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 100%;
+    margin: 5px;
+  }
+  .social img {
+    width: 50px;
+    padding: 15px;
+  }
